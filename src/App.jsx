@@ -34,7 +34,7 @@ useEffect(() => {
    }
    return(
       <main>
-         <label htmlFor="">Cities: </label>
+         <label htmlFor="input">Cities: </label>
          <Input handleChange={handleChange} value={query} hint={hint}/>
       </main>
    );
